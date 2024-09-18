@@ -1,6 +1,6 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family: "FiraCode Nerd Font", Roboto, Helvetica, Arial, sans-serif;
     font-size: 14px;
 }
 
@@ -108,7 +108,7 @@ button:hover {
 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
-    margin-left: 0;
+    margin-left: 12px;
 }
 
 /* If workspaces is the rightmost module, omit right margin */
@@ -290,4 +290,5 @@ label:focus {
 
 #custom-shutdown {
 	background-color: #f26852;
+    margin-right: 12px;
 }
