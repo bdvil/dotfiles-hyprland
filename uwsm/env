@@ -1,0 +1,10 @@
+export XCURSOR_SIZE=24
+
+export QT_QPA_PLATFORM=wayland;xcb
+export QT_QPA_PLATFORMTHEME=qt5ct # change to qt6ct if you have that
+export QT_SCALE_FACTOR_ROUNDING_POLICY=RoundPreferFloor  # for calibre fonts
+export QT_STYLE_OVERRIDE=Adwaita-Dark
+
+export GTK_THEME=Adwaita-dark
+export GDK_BACKEND=wayland,x11,*
+export GDK_SCALE=2
